@@ -1,7 +1,83 @@
-.footer-tab{
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    background-color: rgb(110, 107, 107);
-    height: 300px;
-  }
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-hello {
+  margin-bottom: 20px;
+}
+
+.footer-hello .hello {
+  color: cyan;
+}
+
+.footer-hello .email {
+  margin-top: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: grey;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-quote {
+  text-align: left;
+  flex: 1;
+}
+
+.footer-links {
+  text-align: right;
+  flex: 1;
+}
+
+.footer-links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-copyright {
+  text-align: left;
+  flex: 1;
+}
+
+.footer-linkedin-icon {
+  color: white;
+  font-size: 24px;
+  text-align: right;
+  flex: 1;
+}
+
+.footer-linkedin-icon:hover {
+  color: #0077b5;
+}
