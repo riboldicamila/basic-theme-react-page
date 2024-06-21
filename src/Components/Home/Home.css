@@ -1,0 +1,19 @@
+#home {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: rgba(250, 235, 215, 0.062);
+  height: 600px;
+}
+
+.home-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35vw;
+  margin-left: 100px;
+  margin-top: 70px;
+  gap: 30px;
+  color: white;
+  font-size: 25px;
+}

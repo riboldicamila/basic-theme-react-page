@@ -1,0 +1,9 @@
+#technologies {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+}
+.tecnologies-tab {
+}

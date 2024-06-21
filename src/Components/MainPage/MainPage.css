@@ -1,0 +1,10 @@
+.main-page {
+  background-image: url("../background4.jpg");
+  background-size: cover;
+  background-position: right center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: green;
+}
