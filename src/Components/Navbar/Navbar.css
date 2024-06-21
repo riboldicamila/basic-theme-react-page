@@ -1,4 +1,7 @@
 .navbar-tab {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
   background-color: #33333348;
   padding: 2rem;
   display: flex;
@@ -6,7 +9,7 @@
   align-items: center;
   width: 100%;
   overflow: hidden;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .navbar-logo {

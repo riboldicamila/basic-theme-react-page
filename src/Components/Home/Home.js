@@ -4,14 +4,18 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home-tab">
-      <div>
-        Lorem ipsum may be used as a placeholder before the final copy is
-        available. It is also used to temporarily replace text in a process
-        called greeking, which allows designers to consider the form of a
-        webpage or publication.
+      <div className="home-text">
+        My name is Camila. <br /> I like to create solutions for clients. Web
+        developmentis not just about building websites;{" "}
+        <span style={{ color: "#00D6E8" }}>
+          {" "}
+          it’s about creating experiences.{" "}
+        </span>{" "}
+        There’s always something new to learn, something to improve, and
+        something to innovate.
       </div>
       <button type="button" class="btn btn-primary btn-lg btn-block">
-        Block level button
+        Let's connect
       </button>
     </div>
   );

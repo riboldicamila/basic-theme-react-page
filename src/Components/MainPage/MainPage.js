@@ -12,7 +12,6 @@ function MainPage() {
   return (
     <div className="main-page">
       <Navbar />
-
       <div id="home">
         <Home />
       </div>

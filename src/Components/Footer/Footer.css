@@ -1,0 +1,7 @@
+.footer-tab{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgb(110, 107, 107);
+    height: 300px;
+  }
