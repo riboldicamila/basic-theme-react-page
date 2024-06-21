@@ -7,6 +7,7 @@ import Home from "../Home/Home";
 import Technologies from "../Technologies/Tecnologies";
 import AboutMe from "../AboutMe/AboutMe";
 import Projects from "../Projects/Projects";
+import ContactForm from "../ContactMe/ContactMe";
 
 function MainPage() {
   return (
@@ -24,7 +25,9 @@ function MainPage() {
       <div id="projects">
         <Projects />
       </div>
-      <div id="contact-me">Contact me</div>
+      <div id="contact-me">
+        <ContactForm />
+      </div>
 
       <Footer />
     </div>

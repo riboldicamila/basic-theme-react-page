@@ -5,7 +5,6 @@ import scrum from "./scrum.png";
 import css from "./CSS-Logo.png";
 import js from "./JavaScript.png";
 import react from "./react+.png";
-import python from "./python.png";
 
 import "./Tecnologies.css";
 
