@@ -3,7 +3,7 @@ import MainPage from "./Components/MainPage/MainPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <MainPage />
     </div>
   );

@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  color: #35383f !important;
 }
 
 .contact-form {
@@ -20,6 +19,7 @@
 .contact-form label {
   margin-bottom: 10px;
   font-weight: bold;
+  color: #35383f
 }
 
 .contact-form input,
@@ -29,6 +29,7 @@
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  color: #35383f !important;
 }
 
 .contact-form button {

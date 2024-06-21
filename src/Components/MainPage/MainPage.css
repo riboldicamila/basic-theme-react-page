@@ -8,3 +8,11 @@
   justify-content: space-between;
   background-color: green;
 }
+
+@media (max-width: 1000px) {
+  .main-page {
+    display: none;
+    visibility: hidden;
+    background-color: grey;
+  }
+}

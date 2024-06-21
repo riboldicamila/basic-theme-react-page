@@ -31,14 +31,19 @@
 }
 
 .btn-primary {
-  background-color: #00D6E8;
-  border-color: #00D6E8;
+  background-color: #00d6e8;
+  border-color: #00d6e8;
 }
 
 .btn-primary:hover {
-  background-color: #35383F;
-  border-color: #00D6E8;
+  background-color: #35383f;
+  border-color: #00d6e8;
 }
 
-
-
+@media (max-width: 1000px) {
+  .main-page {
+    display: none;
+    visibility: hidden;
+    background-color: grey;
+  }
+}
