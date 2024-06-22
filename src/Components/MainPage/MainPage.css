@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: green;
+  background-color: grey;
 }
 
 @media (max-width: 1000px) {
