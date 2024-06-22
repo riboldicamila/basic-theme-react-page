@@ -1,7 +1,7 @@
 .main-page {
   background-image: url("../background4.jpg");
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;

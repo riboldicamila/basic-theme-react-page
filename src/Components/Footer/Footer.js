@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-hello">
           <p>Say <span className="hello">Hello</span></p>
-          <p className="email">your-email@example.com</p>
+          <p className="email">cami.riboldi@gmail.com</p>
         </div>
         <hr />
         <div className="footer-bottom">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom-extra">
-          <p className="footer-copyright">© 2024 Your Name</p>
+          <p className="footer-copyright">© 2024 Camila Riboldi</p>
           <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="footer-linkedin-icon" />
           </a>

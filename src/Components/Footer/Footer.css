@@ -1,15 +1,16 @@
 .footer {
-  background-color: #333;
+  background-color: #1d1e22;
   color: white;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 .footer-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -23,6 +24,7 @@
 
 .footer-hello .email {
   margin-top: 10px;
+  font-size: 14px;
 }
 
 hr {

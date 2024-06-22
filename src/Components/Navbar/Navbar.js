@@ -1,4 +1,6 @@
 import React from "react";
+import logo from "../logo.png";
+
 import "./Navbar.css";
 
 function Navbar() {
@@ -6,8 +8,7 @@ function Navbar() {
     <div className="navbar-tab">
       <div className="navbar-logo">
         <a href="#home">
-          Home
-          {/* <img src={Logo} alt="Logo" className="logo-image" /> */}
+          <img src={logo} alt="Logo" className="logo-image" /> 
         </a>
       </div>
       <ul className="navbar-items">

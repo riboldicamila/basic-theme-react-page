@@ -6,7 +6,7 @@ function Home() {
     <div className="home-tab">
       <div className="home-text">
         My name is Camila. <br /> I like to create solutions for clients. Web
-        developmentis not just about building websites;{" "}
+        developmentis is not just about building websites;{" "}
         <span style={{ color: "#00D6E8" }}>
           {" "}
           it’s about creating experiences.{" "}
