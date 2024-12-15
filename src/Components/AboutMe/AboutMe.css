@@ -11,14 +11,14 @@
 .about-me-tab .title {
   text-transform: uppercase;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 .about-me-tab .subtitle {
   color: white;
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .side-card {
@@ -38,7 +38,7 @@
   flex: 1;
   padding: 10px;
   text-align: justify;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .image {

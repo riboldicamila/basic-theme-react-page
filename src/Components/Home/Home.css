@@ -5,7 +5,7 @@
   background-color: rgba(250, 235, 215, 0.062);
   height: 600px;
   margin-top: 100px;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .home-tab {
@@ -18,7 +18,7 @@
   padding-top: 25px;
   gap: 30px;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   transition: transform 0.3s ease;
 }
 

@@ -8,7 +8,7 @@ function Navbar() {
     <div className="navbar-tab">
       <div className="navbar-logo">
         <a href="#home">
-          <img src={logo} alt="Logo" className="logo-image" /> 
+          <img src={logo} alt="Logo" className="logo-image" />
         </a>
       </div>
       <ul className="navbar-items">
@@ -16,7 +16,7 @@ function Navbar() {
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#technologies">Technologies</a>
+          <a href="#technologies">Skill Set</a>
         </li>
         <li>
           <a href="#about-me">About Me</a>

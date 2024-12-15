@@ -13,21 +13,29 @@ function Projects() {
         <div className="title">What I have worked on</div>
         <div className="subtitle">
           Here are some of my recent work. <br />
-          SwissMedia: In this project, you'll find a website created with HTML
-          and CSS, featuring experiments with Sass, Flexbox, and general
-          frontend concepts. To develop this site, I started with wireframes and
-          thoughtfully designed the layout of each tab and page. The final
-          product is deployed and available at GitHub Pages.
+          <span style={{ color: "#00D6E8" }}>Wedding Photography:</span> In this
+          project, I captured moments for a couple’s wedding, focusing on
+          natural light and candid shots. The final product was a blend of posed
+          portraits and spontaneous moments, all edited in Lightroom to create a
+          timeless feel. The images were delivered through an online gallery for
+          easy sharing.
           <br />
-          My portfolio: In this project, you'll find a portfolio website created
-          with React and Material UI, showcasing experiments with various
-          frontend technologies and concepts. Is deployed and available on
-          Vercel.
+          <span style={{ color: "#00D6E8" }}>Product Photography:</span> For
+          this project, I worked with a local brand, creating high-quality
+          product images to showcase their new collection. Using a combination
+          of studio lighting and styling techniques, I captured each product in
+          a way that highlighted its details. The images were used on their
+          website and social media platforms.
           <br />
-          Corporate Projects: In my career, I've worked on corporate projects
-          both with CMS and build from scratch applications.
+          <span style={{ color: "#00D6E8" }}>Portrait Sessions:</span> Over the
+          years, I've done numerous portrait sessions for clients, ranging from
+          headshots to personal branding photos. Each session is tailored to the
+          client’s needs, with a focus on creating a comfortable atmosphere to
+          capture authentic expressions. The final edited images are delivered
+          digitally, with options for prints.
         </div>
-        <button type="button" class="btn btn-primary btn-lg btn-block">
+
+        <button type="button" class="btn btn-primary btn-sm btn-block">
           Let's connect
         </button>
       </div>

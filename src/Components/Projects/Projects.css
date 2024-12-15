@@ -24,13 +24,13 @@
 .projects-card .title {
   text-transform: uppercase;
   color: #41454f;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .projects-card .subtitle {
   color: #35383f;
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 20px;
 }
 

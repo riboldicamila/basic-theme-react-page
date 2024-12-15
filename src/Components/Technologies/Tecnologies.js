@@ -13,9 +13,10 @@ function Technologies() {
     <div className="tecnologies-tab">
       <div className="title">Skills set: What Can I Do</div>
       <div className="subtitle">
-        I Work With: A Comprehensive Toolkit Encompassing React, HTML, CSS,
-        JavaScript, SQL, and Python.
+        I Work With: A Comprehensive Toolkit Encompassing Photography, Adobe
+        Photoshop, Lightroom, Studio Lighting, and Portraiture.
       </div>
+
       <div className="images">
         <img src={scrum} alt="Background" className="icon-image" />
         <img src={git} alt="Background" className="icon-image" />
@@ -23,7 +24,6 @@ function Technologies() {
         <img src={html} alt="Background" className="icon-image" />
         <img src={js} alt="Background" className="icon-image" />
         <img src={react} alt="Background" className="icon-image" />
-
       </div>
     </div>
   );
