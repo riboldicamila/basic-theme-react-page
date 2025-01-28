@@ -6,8 +6,8 @@ function Home() {
     <div className="home-tab">
       <div className="home-text">
         My name is John Doe. <br /> I love capturing moments for my clients.
-        Photography isn’t just about taking pictures;{" "}
-        <span style={{ color: "#00D6E8" }}> it’s about telling stories. </span>{" "}
+        Photography isn’t just about taking pictures;
+        <span style={{ color: "#00D6E8" }}> it’s about telling stories. </span>
         There’s always a new perspective to explore, a detail to highlight, and
         a story to bring to life.
       </div>
