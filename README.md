@@ -1,6 +1,7 @@
 # 📱 Basic React Page
 
 This project is a basic React application designed to showcase fundamental React functionality. Not responsive.
+Deployment: https://minimalistic-web-sample.vercel.app/
 
 
 ## 💭 Features
