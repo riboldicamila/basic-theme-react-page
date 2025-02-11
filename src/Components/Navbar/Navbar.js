@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../logo.png";
-
 import "./Navbar.css";
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
   return (
     <div className="navbar-tab">
       <div className="navbar-logo">
@@ -11,7 +14,12 @@ function Navbar() {
           <img src={logo} alt="Logo" className="logo-image" />
         </a>
       </div>
-      <ul className="navbar-items">
+
+      <button className="menu-toggle" onClick={toggleMenu}>
+        &#9776;
+      </button>
+
+      <ul className={`navbar-items ${menuOpen ? "active" : ""}`}>
         <li>
           <a href="#home">Home</a>
         </li>

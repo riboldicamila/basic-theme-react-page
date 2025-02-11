@@ -3,7 +3,7 @@
   overflow: hidden;
   box-sizing: border-box;
   background-color: rgb(22, 22, 22);
-  padding: 70px 60px;
+  padding: 70px 100px;
   text-align: center;
 }
 
@@ -49,6 +49,10 @@
 }
 
 @media (max-width: 1000px) {
+  #about-me {
+    padding: 0;
+  }
+
   .about-me-tab .title {
     font-size: 18px;
   }
@@ -74,8 +78,9 @@
 
 @media (max-width: 768px) {
   #about-me {
-    padding-top: 50px;
+    padding: 0;
   }
+
 
   .about-me-tab .title {
     font-size: 16px;
@@ -92,7 +97,8 @@
   }
 
   .side-card img {
-    width: 130px;
+    width: 100%;
+    max-width: 400px;
   }
 
   .text {
@@ -102,8 +108,9 @@
 
 @media (max-width: 480px) {
   #about-me {
-    padding-top: 30px;
+    padding: 0;
   }
+
 
   .about-me-tab .title {
     font-size: 14px;
@@ -119,10 +126,10 @@
     gap: 10px;
   }
 
-  .side-card img {
-    width: 120px;
+ .side-card img {
+    width: 100%; 
+    max-width: 400px; 
   }
-
   .text {
     font-size: 8px;
   }
