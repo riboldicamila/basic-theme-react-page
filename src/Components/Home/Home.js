@@ -11,7 +11,7 @@ function Home() {
         There’s always a new perspective to explore, a detail to highlight, and
         a story to bring to life.
       </div>
-      <button type="button" class="btn btn-primary btn-sm btn-block">
+      <button type="button" class="btn btn-primary btn-sm ">
         Let's connect
       </button>
     </div>

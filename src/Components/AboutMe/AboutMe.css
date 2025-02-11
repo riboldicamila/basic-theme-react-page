@@ -3,8 +3,7 @@
   overflow: hidden;
   box-sizing: border-box;
   background-color: rgb(22, 22, 22);
-  height: 600px;
-  padding-top: 70px;
+  padding: 70px 60px;
   text-align: center;
 }
 
@@ -18,7 +17,7 @@
 .about-me-tab .subtitle {
   color: white;
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .side-card {
@@ -27,6 +26,7 @@
   align-items: center;
   max-height: 500px;
   gap: 15px;
+  justify-content: center;
 }
 
 .side-card img {
@@ -46,4 +46,84 @@
   padding: 10px;
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 1000px) {
+  .about-me-tab .title {
+    font-size: 18px;
+  }
+
+  .about-me-tab .subtitle {
+    font-size: 11px;
+  }
+
+  .side-card {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .side-card img {
+    width: 150px;
+  }
+
+  .text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  #about-me {
+    padding-top: 50px;
+  }
+
+  .about-me-tab .title {
+    font-size: 16px;
+  }
+
+  .about-me-tab .subtitle {
+    font-size: 10px;
+  }
+
+  .side-card {
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .side-card img {
+    width: 130px;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #about-me {
+    padding-top: 30px;
+  }
+
+  .about-me-tab .title {
+    font-size: 14px;
+  }
+
+  .about-me-tab .subtitle {
+    font-size: 8px;
+  }
+
+  .side-card {
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .side-card img {
+    width: 120px;
+  }
+
+  .text {
+    font-size: 8px;
+  }
 }

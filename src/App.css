@@ -3,13 +3,7 @@
   font-family: poppins, sans-serif;
 }
 
-@media (max-width: 1000px) {
-  .app {
-    display: none;
-    visibility: hidden;
-    background-color: grey;
-  }
-}
+
 
 /* 
 #00D6E8 cyan

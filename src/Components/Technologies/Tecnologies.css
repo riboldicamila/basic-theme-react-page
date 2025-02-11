@@ -3,10 +3,8 @@
   overflow: hidden;
   box-sizing: border-box;
   background-color: rgb(255, 255, 255);
-  height: 500px;
   text-align: center;
-  padding-top: 70px;
-  
+  padding: 70px 0px;
 }
 
 .tecnologies-tab .title {
@@ -20,9 +18,70 @@
   margin-top: 5px;
   font-size: 14px;
 }
+
 .images {
   margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.images .icon-image{
+
+.images .icon-image {
   width: 180px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.images .icon-image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+  .tecnologies-tab .title {
+    font-size: 18px;
+  }
+
+  .tecnologies-tab .subtitle {
+    font-size: 13px;
+  }
+
+  .images .icon-image {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  #technologies {
+    padding-top: 50px;
+  }
+
+  .tecnologies-tab .title {
+    font-size: 16px;
+  }
+
+  .tecnologies-tab .subtitle {
+    font-size: 12px;
+  }
+
+  .images .icon-image {
+    width: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  #technologies {
+    padding-top: 30px;
+  }
+
+  .tecnologies-tab .title {
+    font-size: 14px;
+  }
+
+  .tecnologies-tab .subtitle {
+    font-size: 10px;
+  }
+
+  .images .icon-image {
+    width: 120px;
+  }
 }

@@ -1,6 +1,8 @@
 import React from "react";
-import "./AboutMe.css";
 import tech from "./languages-photo.jpg";
+
+import "./AboutMe.css";
+
 
 function AboutMe() {
   return (
